@@ -13,9 +13,6 @@ function createSquare(n) {
     const magicSquare = Array(n).fill(0).map(x => Array(n).fill(0));
     return magicSquare;
 }
-
-
-
 function makeSquareMagic(n) {
     const square = createSquare(5);
     let line = parseInt(n / 2); // <-- по условию данного алогоритма начальное число 1 находится в таких координатах 
