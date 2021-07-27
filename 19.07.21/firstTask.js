@@ -16,9 +16,9 @@ const GoodDriver = () => {
 
 
 const Maniac = () => {
-    setABS(5);
-    setTraction(5);
-    setStability(5);
+    setABS(1);
+    setTraction(1);
+    setStability(1);
 }
 
 Begginer();
